@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar empleado</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/agregar.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sistema de empleados</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="sistemaRH.html">Inicio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 my-5">
+                <h1 class="text-center">Agregar empleado</h1>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-10 mx-auto">
+                <div class="form-group">
+                    <label for="input-nombre">Nombre</label>
+                    <input type="text" class="form-control" id="input-nombre" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="input-apellido_pat">Apellido Paterno</label>
+                    <input type="text" class="form-control" id="input-apellido_pat" placeholder="Apellido paterno"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="input-apellido_mat">Apellido Materno</label>
+                    <input type="text" class="form-control" id="input-apellido_mat" placeholder="Apellido materno"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="input-telefono">Telefono</label>
+                    <input type="text" class="form-control" id="input-telefono" placeholder="Telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="input-correo">Correo</label>
+                    <input type="text" class="form-control" id="input-correo" placeholder="Correo" required>
+                </div>
+                <div class="form-group">
+                    <label for="input-direccion">Direccion</label>
+                    <input type="text" class="form-control" id="input-direccion" placeholder="Direccion" required>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button class="btn btn-primary mb-5 mt-1">Agregar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

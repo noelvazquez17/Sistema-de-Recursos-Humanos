@@ -4,17 +4,33 @@
   "description": "API REST using express",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noelvazquez17/Sistema-de-Recursos-Humanos.git"
   },
   "keywords": [
     "api",
     "rest",
     "express",
-    "node.js"
+    "node.js",
+    "jwt",
+    "mysql"
   ],
   "author": "Noel Vazquez Trujillo",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noelvazquez17/Sistema-de-Recursos-Humanos/issues"
+  },
+  "homepage": "https://github.com/noelvazquez17/Sistema-de-Recursos-Humanos#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22"
   }
 }

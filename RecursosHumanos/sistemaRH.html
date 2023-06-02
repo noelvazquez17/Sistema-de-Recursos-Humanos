@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/sistema.js"></script>
+    <!--Scrip para fav.ico-->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
+        <!-- Container wrapper -->
+        <div class="container">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <!-- Left links to INDEX UAQ -->
+                <ul class="navbar-nav me-3">
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex align-items-center" aria-current="page"
+                            href="sistemaRH.html"><i></i>Sistema de Recursos Humanos</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+    
+                    <div class="input-group">
+                        <input type="search" class="form-control" placeholder="Buscar" aria-label="Search" id="search-input"
+                            name="busqueda" />
+                    </div>
+                    <button class="btn btn-search text-white" id="searchButton"><i class="fas fa-search"></i></button>
+    
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item me-3">
+                        <a class="nav-link d-flex align-items-center" href="agregar.html">Agregar empleado</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center" href="#" id="logout">Cerrar Sesión</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+    <div class="container">
+        <div class="row">
+            <div id="title" class="col-12">
+                <h1 class="text-center my-5">Bienvenido al Sitema de Recursos Humanos</h1>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
